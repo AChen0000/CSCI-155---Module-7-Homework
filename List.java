@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
 public class List {
-
-    public static int partition(int[] list) {
+public static int partition(int[] list) {
         int pivot = list[0]; 
         int left = 1;
         int right = list.length - 1;
